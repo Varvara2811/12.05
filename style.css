@@ -1,0 +1,17 @@
+.container{
+width: 1200px;
+margin: 0 auto;
+outline: 3px solid red;
+}
+.list{
+    display: flex;
+    column-gap: 10px;
+    grid-template-columns:repeat(3, 1fr);
+    background-color: aquamarine;
+}
+.item{
+    background-color:rgb(9, 255, 1);
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    height: 200px;
+}
