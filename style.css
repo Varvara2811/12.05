@@ -59,7 +59,7 @@ background-position: center;
 }
 .card-container{
 display: flex;
-grid-template-columns: 600px 1fr;
+grid-template-columns: 300px 1fr;
 }
 .card-wrap{
 background-color: rgb(255, 255, 255);
@@ -69,5 +69,8 @@ align-items: center;
 }
 .card-list{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+.card-item:last-child{
+grid-column: 2/3;
 }
